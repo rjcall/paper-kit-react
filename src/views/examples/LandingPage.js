@@ -161,7 +161,7 @@ function LandingPage() {
                       <img
                         alt="..."
                         src={
-                          require("assets/img/faces/clem-onojeghuo-3.jpg")
+                          require("assets/img/faces/jace-profile.jpg")
                             .default
                         }
                       />
@@ -170,14 +170,18 @@ function LandingPage() {
                   <CardBody>
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
-                        <CardTitle tag="h4">Henry Ford</CardTitle>
-                        <h6 className="card-category">Product Manager</h6>
+                        <CardTitle tag="h4">Jace Call</CardTitle>
+                        <h6 className="card-category">Software Engineer</h6>
                       </div>
                     </a>
                     <p className="card-description text-center">
-                      Teamwork is so important that it is virtually impossible
-                      for you to reach the heights of your capabilities or make
-                      the money that you want without becoming very good at it.
+                      Experience developing internal
+                      tools for high-growth startups
+                      using machine learning tools.
+                      <br/>
+                      <b>Currently experiencing burnout.</b>
+                      <br/>
+                      BS in Computer Science - UVU
                     </p>
                   </CardBody>
                   <CardFooter className="text-center">
@@ -215,7 +219,7 @@ function LandingPage() {
                       <img
                         alt="..."
                         src={
-                          require("assets/img/faces/joe-gardner-2.jpg").default
+                          require("assets/img/faces/reed-profile.jpg").default
                         }
                       />
                     </a>
@@ -223,15 +227,18 @@ function LandingPage() {
                   <CardBody>
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
-                        <CardTitle tag="h4">Sophie West</CardTitle>
-                        <h6 className="card-category">Designer</h6>
+                        <CardTitle tag="h4">Reed Gubernick</CardTitle>
+                        <h6 className="card-category">Data Scientist</h6>
                       </div>
                     </a>
                     <p className="card-description text-center">
-                      A group becomes a team when each member is sure enough of
-                      himself and his contribution to praise the skill of the
-                      others. No one can whistle a symphony. It takes an
-                      orchestra to play it.
+                      Experience driving growth at
+                      early-stage startups and large
+                      banks using predictive modelling.
+                      <br/>
+                      <b>Currently experiencing burnout.</b>
+                      <br/>
+                        BS in Applied Statistics - BYU
                     </p>
                   </CardBody>
                   <CardFooter className="text-center">
@@ -269,7 +276,7 @@ function LandingPage() {
                       <img
                         alt="..."
                         src={
-                          require("assets/img/faces/erik-lucatero-2.jpg")
+                          require("assets/img/faces/trevor-profile.jpg")
                             .default
                         }
                       />
@@ -278,15 +285,18 @@ function LandingPage() {
                   <CardBody>
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
-                        <CardTitle tag="h4">Robert Orben</CardTitle>
+                        <CardTitle tag="h4">Trevor Otterson</CardTitle>
                         <h6 className="card-category">Developer</h6>
                       </div>
                     </a>
                     <p className="card-description text-center">
-                      The strength of the team is each individual member. The
-                      strength of each member is the team. If you can laugh
-                      together, you can work together, silence isn’t golden,
-                      it’s deadly.
+                      Developing engineer with frontend
+                      and backend experience. Passion
+                      for entrepreneurship.
+                      <br/>
+                      <b>Currently experiencing burnout.</b>
+                      <br/>
+                      Current student - UU
                     </p>
                   </CardBody>
                   <CardFooter className="text-center">
